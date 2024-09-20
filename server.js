@@ -1,19 +1,22 @@
 import jsonServer from "json-server";
 import cors from "cors";
+import express from "express";
 import path from "path";
 
-const server = jsonServer.create();
-const router = jsonServer.router("data/cities.json");
+const app = express();
+const router = jsonServer.router("data/cities.json"); // Path to your JSON file
 const middlewares = jsonServer.defaults();
 
-server.use(cors());
-server.use(middlewares);
-server.use(jsonServer.rewriter({ "/api/*": "/$1" }));
-server.use(jsonServer.static(path.join(process.cwd(), "build"))); // Update to your build folder
+app.use(cors()); // Enable CORS
+app.use(middlewares);
 
-const PORT = process.env.PORT || 9000;
-server.use(router);
+// Serve static files from the React app using express
+app.use(express.static(path.join(process.cwd(), "build"))); // Ensure this points to your build folder
 
-server.listen(PORT, () => {
+// Use the JSON router
+app.use("/api", router); // Adjust the route as necessary
+
+const PORT = process.env.PORT || 9000; // Set your port
+app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
