@@ -1,6 +1,18 @@
 {
   "cities": [
     {
+      "cityName": "Ambajogai",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-07-31T07:47:35.838Z",
+      "notes": "",
+      "position": {
+        "lat": "18.692985457961637",
+        "lng": "76.69555664062501"
+      },
+      "id": 7
+    },
+    {
       "cityName": "Sendhwa",
       "country": "India",
       "emoji": "🇮🇳",
@@ -47,54 +59,6 @@
         "lng": "86.011962890625"
       },
       "id": 11
-    },
-    {
-      "cityName": "Barmer",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-12-21T17:55:31.559Z",
-      "notes": "",
-      "position": {
-        "lat": "25.890430065750145",
-        "lng": "71.29028320312501"
-      },
-      "id": 12
-    },
-    {
-      "cityName": "Fatehpura",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-12-21T18:00:18.448Z",
-      "notes": "",
-      "position": {
-        "lat": "23.13269303805288",
-        "lng": "74.01489257812501"
-      },
-      "id": 13
-    },
-    {
-      "cityName": "Kapoeta",
-      "country": "South Sudan",
-      "emoji": "🇸🇸",
-      "date": "2023-12-21T18:26:32.541Z",
-      "notes": "",
-      "position": {
-        "lat": "5.3701381178901935",
-        "lng": "35.59570312500001"
-      },
-      "id": 15
-    },
-    {
-      "cityName": "Laibin",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2023-12-13T18:29:12.000Z",
-      "notes": "",
-      "position": {
-        "lat": "23.67067404102251",
-        "lng": "109.61608886718751"
-      },
-      "id": 16
     }
   ]
 }
