@@ -1,23 +1,19 @@
-const jsonServer = require("json-server");
+import jsonServer from "json-server";
+import cors from "cors";
+import path from "path";
+
 const server = jsonServer.create();
-const router = jsonServer.router("./data/cities.json");
-const cors = require("cors");
+const router = jsonServer.router("data/cities.json");
+const middlewares = jsonServer.defaults();
 
 server.use(cors());
+server.use(middlewares);
+server.use(jsonServer.rewriter({ "/api/*": "/$1" }));
+server.use(jsonServer.static(path.join(process.cwd(), "build"))); // Update to your build folder
 
-const middleware = jsonServer.defaults({
-  static: "./build",
-});
-
-const port = process.env.PORT || 9000;
-server.use(middleware);
-server.use(
-  jsonServer.rewriter({
-    "/api/*": "/$1",
-  })
-);
-
+const PORT = process.env.PORT || 9000;
 server.use(router);
-server.listen(port, () => {
-  console.log(`Server is active at ${port}`);
+
+server.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });

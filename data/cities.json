@@ -1,100 +1,16 @@
 {
   "cities": [
     {
-      "cityName": "Sendhwa",
+      "cityName": "Shujalpur",
       "country": "India",
       "emoji": "🇮🇳",
-      "date": "2023-07-31T08:05:08.596Z",
-      "notes": "",
+      "date": "2024-09-20T10:10:26.557Z",
+      "notes": "zz",
       "position": {
-        "lat": "21.6131018443746",
-        "lng": "75.41015625"
+        "lat": "23.242616686020117",
+        "lng": "76.68457031250001"
       },
-      "id": 8
-    },
-    {
-      "cityName": "Rampura",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-07-31T08:11:39.877Z",
-      "notes": "",
-      "position": {
-        "lat": "24.495421455343923",
-        "lng": "75.50903320312501"
-      },
-      "id": 9
-    },
-    {
-      "cityName": "Mahanandi",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-07-31T08:11:52.753Z",
-      "notes": "",
-      "position": {
-        "lat": "15.499319315690594",
-        "lng": "78.56323242187501"
-      },
-      "id": 10
-    },
-    {
-      "cityName": "Patna",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-12-21T17:38:30.856Z",
-      "notes": "Home",
-      "position": {
-        "lat": "25.294949436256896",
-        "lng": "86.011962890625"
-      },
-      "id": 11
-    },
-    {
-      "cityName": "Barmer",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-12-21T17:55:31.559Z",
-      "notes": "",
-      "position": {
-        "lat": "25.890430065750145",
-        "lng": "71.29028320312501"
-      },
-      "id": 12
-    },
-    {
-      "cityName": "Fatehpura",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2023-12-21T18:00:18.448Z",
-      "notes": "",
-      "position": {
-        "lat": "23.13269303805288",
-        "lng": "74.01489257812501"
-      },
-      "id": 13
-    },
-    {
-      "cityName": "Kapoeta",
-      "country": "South Sudan",
-      "emoji": "🇸🇸",
-      "date": "2023-12-21T18:26:32.541Z",
-      "notes": "",
-      "position": {
-        "lat": "5.3701381178901935",
-        "lng": "35.59570312500001"
-      },
-      "id": 15
-    },
-    {
-      "cityName": "Laibin",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2023-12-13T18:29:12.000Z",
-      "notes": "",
-      "position": {
-        "lat": "23.67067404102251",
-        "lng": "109.61608886718751"
-      },
-      "id": 16
+      "id": 1
     }
   ]
 }
